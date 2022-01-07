@@ -7,6 +7,13 @@ trigger:
 
 pool:
   name: Hosted Ubuntu 1604
+  
+env:
+  WORKSPACE-REGION-URL: https://adb-2554808998623447.7.azuredatabricks.net/
+  CSE-DEVELOP-PAT: dapib10f1864ce5842c8be42b2c16522830b-3
+  EXISTING-CLUSTER-ID: 0107-212745-h9e711c2
+  WORKSPACE-ORG-ID: 2554808998623447
+      
 
 steps:
 - task: UsePythonVersion@0
